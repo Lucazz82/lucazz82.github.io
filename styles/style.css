@@ -1,0 +1,13 @@
+.gradient {
+    background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+    color: #fff;
+}
+
+.portfolio-navbar.navbar {
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 700;
+}
