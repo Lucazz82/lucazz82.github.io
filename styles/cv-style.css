@@ -1,0 +1,13 @@
+main {
+    flex: 1;
+}
+.education {
+    display: flex;
+    margin: 5% 15%;
+    flex-direction: column;
+}
+
+
+.education-item {
+    margin-bottom: 30px;
+}
