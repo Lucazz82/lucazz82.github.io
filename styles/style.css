@@ -24,16 +24,6 @@ ul {
     display: inline;
 }
 
-.presentation {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
-    height: 100%;
-    justify-content: center;
-}
-
 .profile {
     width: 256px;
     height: 256px;
@@ -72,12 +62,13 @@ footer {
 
 main {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
-
-
-/* .nav-link:hover {
-    border-bottom: rgba(255, 255, 255, 0.5) solid;
-} */
 
 @media (min-width: 768px) {
     .active {
@@ -95,5 +86,4 @@ main {
     .nav-item {
         margin: 0 0.5em;
     }
-}
 }
