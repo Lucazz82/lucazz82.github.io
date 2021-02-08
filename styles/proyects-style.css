@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+#project-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 18rem;
+    height: 28rem;
+}
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
