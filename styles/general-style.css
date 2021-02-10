@@ -45,6 +45,11 @@ footer {
     padding: 2%;
 }
 
+.title-big {
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
 @media (min-width: 768px) {
     .active {
         border-bottom: white solid;
